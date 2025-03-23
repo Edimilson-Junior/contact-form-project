@@ -226,6 +226,18 @@ textarea {
     margin-right: 10px;
 }
 
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    text-align: center;
+    background: #fff; /* Cor de fundo opcional */
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1); /* Sombra opcional */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+  }
+
 @keyframes slideDown {
     from {
         top: -100px;
