@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #E0F1E7;
+    color: #2A4144;
+    font-family: "Karla", sans-serif;
+}
+
+form {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    min-width: 35%;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+input {
+    margin: 0;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 7.5px;
+    min-height: 20px;
+    padding: 10px;
+}
+
+.errorInput {
+    border-color: rgb(255, 85, 85);
+}
+
+textarea {
+    margin: 0;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 7.5px;
+    min-height: 20px;
+    padding: 10px;
+}
+
+.requeiredErrorMessage {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 7.5px 0;
+    color: rgb(255, 85, 85);
+    display: none;
+}
+
+.requeiredErrorMessage.show {
+    display: block;
+}
+
+#form-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+#queries-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 2%;
+}
+
+.query {
+    display: flex;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 7.5px;
+    min-height: 20px;
+    width: 100%;
+}
+
+.query > label {
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+    text-align: center;
+    height: 20px;
+    margin: 12px 0;
+}
+
+.query > input {
+    transform: scale(1.2);
+    border-color: lightgray;
+    margin: 0 20px;
+    cursor: pointer;
+}
+#consent-div {
+    margin: 25px 0 25px;
+}
+
+#consent-checkbox-container {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+#consent-checkbox-container > label {
+    margin: 0 0 0 20px;
+}
+
+#consent-checkbox-container > input {
+    cursor: pointer;
+}
+
+#submit-button {
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    border-radius: 7.5px;
+    color: #ffffff;
+    background-color: #0C7D69;
+    cursor: pointer;
+}
